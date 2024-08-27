@@ -1,0 +1,46 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.Bigbox{
+    background-color: black;
+}
+
+
+.icons{
+    height:65px;
+    width:200px;
+    margin:auto;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top:5%;
+    gap: 15px;
+    padding: 20px; 
+} 
+.box2{
+display: flex;
+justify-content: space-around;
+}
+.box2 ul{
+    display: flex;
+    /* align-text:end; */
+    list-style: none;
+    gap: 30px;
+}
+li a{
+    
+    text-decoration: none;
+    color: white;
+}
+
+.box3{
+    padding: 20px;
+    text-align: center;
+}
+.box3 p{
+    color:white;
+}
+
